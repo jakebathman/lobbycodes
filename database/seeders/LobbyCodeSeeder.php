@@ -62,7 +62,7 @@ class LobbyCodeSeeder extends Seeder
         ['code' => 'BeMoreAlien', 'reward' => 'Override Ready Loading Screen'],
         ['code' => 'LetsBlockAndRoll', 'reward' => 'Transforms you into a Tetris block temporarily'],
         ['code' => 'DontBlockMe', 'reward' => 'Transforms you into a Tetris block temporarily'],
-        ['code' => 'NOPROLLAMA', 'reward' => '1x Llama Supply Drop', 'is_expired' => true],
+        ['code' => 'NOPROLLAMA', 'reward' => '1x Llama Supply Drop'],
     ];
 
     /**
