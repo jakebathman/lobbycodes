@@ -16,6 +16,9 @@ class LobbyCodeSeeder extends Seeder
      */
     private const array LOBBY_CODES = [
         ['code' => 'VeryScaryPumpkin', 'reward' => "3x Snack-O'-Lantern"],
+        ['code' => 'RunSystemOverride', 'reward' => '5,000 Sprite Dust', 'requirement' => "Complete Geno's Story quests first"],
+        ['code' => 'ImTheRealEdgelord', 'reward' => '5,000 Sprite Dust', 'requirement' => "Complete Wrixel (Ziggy)'s Story quests first"],
+        ['code' => 'S7H-50P-R03', 'reward' => 'Geno lobby takeover screen', 'requirement' => "Record the 3 Lobby Hack pieces in Part 2 of Geno's Story quests first"],
         ['code' => 'PumpkinSpiceLife', 'reward' => 'Transforms you into a pumpkin temporarily'],
         ['code' => 'CrowsAreAfraid', 'reward' => 'Transforms you into a scarecrow temporarily'],
         ['code' => 'IThinkTheKeyFoundMeChat', 'reward' => '1x Extraction Accelerator'],
