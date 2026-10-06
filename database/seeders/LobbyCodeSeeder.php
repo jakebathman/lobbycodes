@@ -15,6 +15,7 @@ class LobbyCodeSeeder extends Seeder
      * @var list<array{code: string, reward: string, requirement?: string, is_expired?: bool}>
      */
     private const array LOBBY_CODES = [
+        ['code' => 'VeryScaryPumpkin', 'reward' => "3x Snack-O'-Lantern"],
         ['code' => 'PumpkinSpiceLife', 'reward' => 'Transforms you into a pumpkin temporarily'],
         ['code' => 'CrowsAreAfraid', 'reward' => 'Transforms you into a scarecrow temporarily'],
         ['code' => 'IThinkTheKeyFoundMeChat', 'reward' => '1x Extraction Accelerator'],
