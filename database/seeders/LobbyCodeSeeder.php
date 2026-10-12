@@ -15,6 +15,7 @@ class LobbyCodeSeeder extends Seeder
      * @var list<array{code: string, reward: string, requirement?: string, is_expired?: bool}>
      */
     private const array LOBBY_CODES = [
+        ['code' => 'DOOR2DOOR4CANDY', 'reward' => '2x Extraction Accelerator'],
         ['code' => 'VeryScaryPumpkin', 'reward' => "3x Snack-O'-Lantern"],
         ['code' => 'RunSystemOverride', 'reward' => '5,000 Sprite Dust', 'requirement' => "Complete Geno's Story quests first"],
         ['code' => 'ImTheRealEdgelord', 'reward' => '5,000 Sprite Dust', 'requirement' => "Complete Wrixel (Ziggy)'s Story quests first"],
